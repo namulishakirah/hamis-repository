@@ -1,0 +1,90 @@
+body{
+    background-color:brown;
+    color: white;
+    font-family: licida Sans,  Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    line-heigth :1.6em ;
+    margin: 0px;
+
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+a {
+   text-decoration: none;
+}
+
+a:hover{
+    color: crimson;
+}
+
+a:active{
+    color: cyan;
+}
+
+a:visited {
+  color: darkgoldenrod;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: wheat;
+    color: black;
+
+    border-right: 5px white solid;
+    border-left: 5px white solid;
+    border-top: 5px white solid;
+    border-bottom: 5px white solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    border: 5px green dotted;
+
+    padding-top: 50px;
+    padding-bottom: 50pxpx;
+    padding-right: 50px;
+    padding-left: 50pxpx;
+
+    padding: 50px;
+
+    margin-top: 20px;
+    margin: 20px 0;
+}
+
+.box-2{
+    border: blue;
+    padding: 3px;
+    margin: auto;
+}
+.box-3{
+    text-align: center;
+    color: black;
+}
+
+.box-4{
+    text-align: center;
+}
+
+.box-5{
+    text-align: center;
+}
+
+.box-6{
+    text-align: center;
+    text-align: start;
+}
+
+.box-7{
+    text-align: center;
+}
+.box-10{
+    text-align: end;
+}

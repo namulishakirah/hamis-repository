@@ -1,0 +1,76 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+.jumia-header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.jumia-logo{
+    height: 100%;
+    margin: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.jumia-searchbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.jumia-searchbar input{
+    width: 500px;
+    padding: 4px;
+}
+.jumia-searchbar.searchicon{
+    background-color: white;
+    height: 23px;
+    width: 50px;
+    font-size: large;
+    cursor: pointer;
+}
+.header-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+.header-icon{
+    color: #000;
+    margin: 13px;
+    padding: 4px 4px;
+    font-size: 15px;
+}
+
+.jumia-bottomsection{
+    display: flex;
+    flex-direction: row;
+}
+.jumia-sidebar{
+    border: orange;
+    position: fixed;
+    margin-top: 60px;
+    left: 0;
+    flex-direction: column;
+    background-color:whitesmoke;
+    width: 250px;
+    height: 100vh;
+}
+.jumia-sidebarfield{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-color:whitesmoke;
+    width: 100%;
+    margin: 5px;
+    cursor: point;
+}
